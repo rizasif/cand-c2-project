@@ -1,15 +1,16 @@
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,35.1,421.2,USD,Number of NAT Gateways (1)
-My Estimate,US East (Ohio),,Classic Load Balancer,0,44.18,530.16,USD,"Number of Classic Load Balancers (2), Processed bytes per CLB (480 GB per month)"
-My Estimate,US East (Ohio),,Amazon EC2,0,484.82,5817.84,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (256 GB), Instance type (m5a.4xlarge)"
-My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,2260.5,27126,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (512 GB), Quantity (2), Instance type (db.m4.4xlarge), Deployment option (Single-AZ), Pricing strategy (OnDemand), Additional backup storage (1024 GB)"
-My Estimate,US East (Ohio),,S3 Standard,0,6.19,74.28,USD,S3 Standard storage (128 GB per month)
-My Estimate,US East (Ohio),,Amazon Elastic File System (EFS),0,3079.68,36956.16,USD,"Data stored in Standard storage (512 GB per month), Data stored in Infrequent Access storage (256 GB per month), Infrequent Access requests (128 GB per month), Provisioned Throughput (512 MB/s per month)"
-My Estimate,US East (Ohio),,Amazon EC2,0,110.28,1323.36,USD,"Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (128 GB), Instance type (t4g.xlarge)"
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-Acknowledgement,,,,,,,,
-"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
-,,,,,,,,
-Most of the prices were cut due to reduced transfer rate.,,,,,,,,
+My Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,108.9,1306.80,USD,Number of NAT Gateways (2)
+My Estimate,US East (Ohio),,Application Load Balancer,0,71.78999999999999,861.48,USD,Number of Application Load Balancers (2)
+"My Estimate,US East (Ohio),,Amazon EC2,0,1963.02,23556.24,USD,""Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (128 GB), Instance type (m5.16xlarge)"""
+"My Estimate,US East (Ohio),,Amazon EC2,0,1458.7,17504.40,USD,""Operating system (Linux), Quantity (2), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (30 GB), Instance type (m5.12xlarge)"""
+"My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,713.63,8563.56,USD,""Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Quantity (1), Instance type (db.m5.large), Deployment option (Single-AZ), Pricing strategy (OnDemand)"""
+My Estimate,US East (Ohio),,S3 Standard,0,2.76,33.12,USD,S3 Standard storage (120 GB per month)
+My Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,
+
+
+
+Acknowledgement
+* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.
+
+
+Reason: Acquired EC2 instances for 3 years. That was the easiest way to reduce costs.
