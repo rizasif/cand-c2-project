@@ -2,10 +2,11 @@ Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total
 My Estimate,US East (Ohio),,Amazon Virtual Private Cloud (VPC),0,108.9,1306.80,USD,Number of NAT Gateways (2)
 My Estimate,US East (Ohio),,Application Load Balancer,0,71.78999999999999,861.48,USD,Number of Application Load Balancers (2)
 My Estimate,US East (Ohio),,Amazon EC2,0,4510.72,54128.64,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances  ), Storage amount (128 GB), Instance type (m5.16xlarge)"
-My Estimate,US East (Ohio),,Amazon EC2,0,3369.84,40438.08,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.12xlarge)"
+My Estimate,US East (Ohio),,Amazon EC2,0,2248.56,26982.72,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.8xlarge)"
 My Estimate,US East (Ohio),,Amazon RDS for MySQL,0,713.63,8563.56,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5 TB), Quantity (1), Instance type (db.m5.large), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
 My Estimate,US East (Ohio),,S3 Standard,0,2.76,33.12,USD,S3 Standard storage (120 GB per month)
-My Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (Ohio),,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (Ohio),,Amazon Route 53,0,1,12.00,USD,Hosted Zones (2)
 
 
 
